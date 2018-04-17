@@ -1,0 +1,8 @@
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Plugins/netcoreapp2.0/HelloWorldComponent.deps.json
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Plugins/netcoreapp2.0/HelloWorldComponent.dll
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Plugins/netcoreapp2.0/HelloWorldComponent.pdb
+/home/od/HSR/APF/Uebung/ComponentConfigurator/HelloWorldComponent/obj/Debug/netcoreapp2.0/HelloWorldComponent.csproj.CoreCompileInputs.cache
+/home/od/HSR/APF/Uebung/ComponentConfigurator/HelloWorldComponent/obj/Debug/netcoreapp2.0/HelloWorldComponent.AssemblyInfoInputs.cache
+/home/od/HSR/APF/Uebung/ComponentConfigurator/HelloWorldComponent/obj/Debug/netcoreapp2.0/HelloWorldComponent.AssemblyInfo.cs
+/home/od/HSR/APF/Uebung/ComponentConfigurator/HelloWorldComponent/obj/Debug/netcoreapp2.0/HelloWorldComponent.dll
+/home/od/HSR/APF/Uebung/ComponentConfigurator/HelloWorldComponent/obj/Debug/netcoreapp2.0/HelloWorldComponent.pdb

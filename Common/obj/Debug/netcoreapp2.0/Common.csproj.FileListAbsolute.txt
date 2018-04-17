@@ -1,0 +1,8 @@
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Common/bin/Debug/netcoreapp2.0/Common.deps.json
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Common/bin/Debug/netcoreapp2.0/Common.dll
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Common/bin/Debug/netcoreapp2.0/Common.pdb
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Common/obj/Debug/netcoreapp2.0/Common.csproj.CoreCompileInputs.cache
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Common/obj/Debug/netcoreapp2.0/Common.AssemblyInfoInputs.cache
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Common/obj/Debug/netcoreapp2.0/Common.AssemblyInfo.cs
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Common/obj/Debug/netcoreapp2.0/Common.dll
+/home/od/HSR/APF/Uebung/ComponentConfigurator/Common/obj/Debug/netcoreapp2.0/Common.pdb

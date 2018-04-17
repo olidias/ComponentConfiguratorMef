@@ -1,0 +1,12 @@
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/bin/Debug/netcoreapp2.0/ComponentConfigurator.deps.json
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/bin/Debug/netcoreapp2.0/ComponentConfigurator.runtimeconfig.json
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/bin/Debug/netcoreapp2.0/ComponentConfigurator.runtimeconfig.dev.json
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/bin/Debug/netcoreapp2.0/ComponentConfigurator.dll
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/bin/Debug/netcoreapp2.0/ComponentConfigurator.pdb
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/bin/Debug/netcoreapp2.0/Common.dll
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/bin/Debug/netcoreapp2.0/Common.pdb
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/obj/Debug/netcoreapp2.0/ComponentConfigurator.csproj.CoreCompileInputs.cache
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/obj/Debug/netcoreapp2.0/ComponentConfigurator.AssemblyInfoInputs.cache
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/obj/Debug/netcoreapp2.0/ComponentConfigurator.AssemblyInfo.cs
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/obj/Debug/netcoreapp2.0/ComponentConfigurator.dll
+/home/od/HSR/APF/Uebung/ComponentConfigurator/ComponentConfigurator/obj/Debug/netcoreapp2.0/ComponentConfigurator.pdb

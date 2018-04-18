@@ -34,22 +34,13 @@ namespace ComponentConfigurator
             Console.WriteLine("-----\n\tComponent Configurator 1.0\n-----");
             Console.Write(">");
             
-            InitComponents();
-            
+            _componentRepository.ToList().ForEach(c=>c.Value.Init());
             
             while (true)
             {
                 var s = Console.ReadLine();
                 HandleCommand(s);
                 Console.Write(">");
-            }
-        }
-
-        private void InitComponents()
-        {
-            foreach (var component in _componentRepository)
-            {
-                component.Value.Init();
             }
         }
 
@@ -71,14 +62,42 @@ namespace ComponentConfigurator
                 case "init all":
                     _componentRepository.ToList().ForEach(c=>c.Value.Init());
                     break;
+                case "remove":
+                    HandleRemove();
+                    break;
                 case "quit":
                     Console.WriteLine("Quitting application...");
                     Environment.Exit(0);
                     break;
-                default: 
+                default:
                     Console.WriteLine("Command not recognised. ");
                     break;
             }
+        }
+
+        private void HandleRemove()
+        {
+            Console.WriteLine("Type which Components you want to be removed (Nr):");
+            for (int i = 0; i < _componentRepository.Count(); i++)
+            {
+                Console.WriteLine($"\t({i}){_componentRepository.ToList()[i].Value.Identifier}");    
+            }
+
+            var strIndex = Console.ReadLine();
+            if (!int.TryParse(strIndex, out var intIndex))
+            {
+                Console.WriteLine("Invalid input.. returing");
+                return;
+            };
+            if (intIndex < _componentRepository.Count() && intIndex >= 0)
+            {
+                _componentRepository.ToList()[intIndex].Value.Terminate();
+            }
+            else
+            {
+                Console.WriteLine("Given number was out of range");
+            }
+
         }
     }
 }

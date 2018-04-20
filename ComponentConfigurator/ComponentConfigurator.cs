@@ -17,7 +17,7 @@ namespace ComponentConfigurator
 
         public ComponentConfigurator()
         {
-            catalog = new DirectoryCatalog("/home/od/HSR/APF/Uebung/ComponentConfigurator/Plugins/netcoreapp2.0/");
+            catalog = new DirectoryCatalog("../Plugins/netcoreapp2.0/");
             _container = new CompositionContainer(catalog);
             _container.ComposeParts(this);
             _container.ExportsChanged += (sender, args) =>
@@ -34,7 +34,7 @@ namespace ComponentConfigurator
             Console.WriteLine("-----\n\tComponent Configurator 1.0\n-----");
             Console.Write(">");
             
-            _componentRepository.ToList().ForEach(c=>c.Value.Init());
+//            _componentRepository.ToList().ForEach(c=>c.Value.Init());
             
             while (true)
             {
@@ -86,7 +86,7 @@ namespace ComponentConfigurator
             var strIndex = Console.ReadLine();
             if (!int.TryParse(strIndex, out var intIndex))
             {
-                Console.WriteLine("Invalid input.. returing");
+                Console.WriteLine("Invalid input.. returning");
                 return;
             };
             if (intIndex < _componentRepository.Count() && intIndex >= 0)
